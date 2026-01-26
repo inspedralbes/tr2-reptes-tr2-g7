@@ -1,0 +1,29 @@
+{
+  "name": "picat-server",
+  "version": "1.0.0",
+  "description": "Backend for Picat Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.6.0",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^6.16.0",
+    "simple-text-parser": "^2.1.1",
+    "socket.io": "^4.7.2",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
